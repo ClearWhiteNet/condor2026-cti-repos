@@ -1,4 +1,4 @@
-# 🛡️ Condor2026 - WhiteNet — CTI / OSINT / Threat Intelligence Repository
+# 🛡️ Condor2026 - ClearWhiteNet — CTI / OSINT / Threat Intelligence Repository
 
 ![White_Net](CTI_ECO_SISTEM_KILLNET.png) 
 
@@ -159,7 +159,7 @@ Ver [`CHANGELOG.md`](CHANGELOG.md) para el historial completo.
 
 ## 👤 Autor
 
-**Condor2026 - ClearWhiteNet**
+**Condor - ClearWhiteNet**
 Analista CTI / OSINT independiente
 Enfoque: cibercrimen, hacktivismo, APTs, defensa Blue Team
 
@@ -179,7 +179,7 @@ correcciones y aportes son bienvenidos siempre que respeten:
 
 <div align="center">
 
-**© 2026 Condor2026 — CC BY 4.0 / MIT**
+**© 2026 Condor2026 - ClearWhiteNet — CC BY 4.0 / MIT**
 
 *"La luz pública es el mejor desinfectante."*
 
