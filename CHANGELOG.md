@@ -7,7 +7,7 @@ y este proyecto se adhiere a [Versionado Semántico](https://semver.org/lang/es/
 
 ---
 
-## [1.0.0] - 2026
+## [1.0.0] - 2026 Febrero 26
 
 ### Añadido
 
@@ -51,7 +51,7 @@ y este proyecto se adhiere a [Versionado Semántico](https://semver.org/lang/es/
 
 ### Notas de la versión
 
-- **Autor:** Condor2026
+- **Autor:** Condor2026 ClearWhiteNet
 - **Clasificación:** CTI / OSINT / Threat Intelligence
 - **Licencia:** CC BY 4.0 (informes) / MIT (tools)
 - **Sesgo:** Ninguno
