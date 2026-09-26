@@ -3,7 +3,7 @@
 <div align="center">
 
 **Última actualización:** 2026
-**Autor:** Condor2026
+**Autor:** Condor2026 ClearWhiteNet
 **Clasificación:** CTI / OSINT / Threat Intelligence
 **Licencia:** CC BY 4.0 (informes) / MIT (tools)
 **Jurisdicción:** Internacional
@@ -175,7 +175,7 @@ elimine cualquier copia local.
 
 ## 12. Contacto
 
-- **Autor:** Condor2026
+- **Autor:** Condor2026 CleaerWhiteNet
 - **Vía:** issues del repositorio (Gitea)
 - **Respuesta:** 72h laborables
 
@@ -183,7 +183,7 @@ elimine cualquier copia local.
 
 <div align="center">
 
-**© 2026 Condor2026 — CC BY 4.0 / MIT**
+**© 2026 Condor2026 ClearWhiteNet— CC BY 4.0 / MIT**
 
 *"La luz pública es el mejor desinfectante."*
 
