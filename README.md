@@ -32,6 +32,8 @@ para equipos SOC, Blue Team, analistas CTI y profesionales de ciberseguridad.
 > **Filosofía del proyecto:** *"La luz pública es el mejor desinfectante."*
 > Conocer las TTPs de los atacantes es el primer paso para defenderse de ellos.
 
+![WhiteNet](image.jpg)
+
 ---
 
 ## 📦 Contenido del repositorio
