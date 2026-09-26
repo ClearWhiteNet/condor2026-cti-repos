@@ -1,0 +1,62 @@
+Licencia Dual — Condor2026
+==========================
+
+Este repositorio contiene proyectos de distinta naturaleza. Se aplican
+DOS licencias según el tipo de contenido:
+
+-----------------------------------------------------------------------
+1. INFORMES, MANUALES Y DOCUMENTACIÓN
+   Licencia: Creative Commons Atribución 4.0 Internacional (CC BY 4.0)
+-----------------------------------------------------------------------
+
+Usted es libre de:
+
+  ✅ Compartir — copiar y redistribuir el material en cualquier medio
+     o formato.
+  ✅ Adaptar — remezclar, transformar y construir a partir del material
+     para cualquier propósito, incluso comercial.
+
+Bajo las siguientes condiciones:
+
+  📌 Atribución — Debe dar crédito de manera adecuada, brindar un enlace
+     a la licencia e indicar si se han realizado cambios. Puede hacerlo
+     de cualquier manera razonable, pero no de una manera que sugiera que
+     el licenciante lo respalda a usted o al uso que hace del material.
+
+  ❌ Sin restricciones adicionales — No puede aplicar términos legales
+     ni medidas tecnológicas que restrinjan legalmente a otros a hacer
+     cualquier cosa que la licencia permita.
+
+Texto completo: https://creativecommons.org/licenses/by/4.0/legalcode.es
+
+-----------------------------------------------------------------------
+2. HERRAMIENTAS, SCRIPTS Y CÓDIGO
+   Licencia: MIT License
+-----------------------------------------------------------------------
+
+Copyright (c) 2026 Condor2026
+
+Por la presente se concede permiso, libre de cargos, a cualquier persona
+que obtenga una copia de este software y de los archivos de documentación
+asociados (el "Software"), para utilizar el Software sin restricción,
+incluyendo sin limitación los derechos a usar, copiar, modificar, fusionar,
+publicar, distribuir, sublicenciar, y/o vender copias del Software, y a
+permitir a las personas a las que se les proporcione el Software a hacer
+lo mismo, bajo las siguientes condiciones:
+
+El aviso de copyright anterior y este aviso de permiso se incluirán en
+todas las copias o partes sustanciales del Software.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO,
+EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE
+COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN.
+EN NINGÚN CASO LOS AUTORES O TITULARES DEL COPYRIGHT SERÁN RESPONSABLES
+DE NINGUNA RECLAMACIÓN, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UN
+LITIGIO, AGRAVIO O DE OTRO MODO, QUE SURJA DE O EN CONEXIÓN CON EL
+SOFTWARE O EL USO U OTRAS OPERACIONES EN EL SOFTWARE.
+
+-----------------------------------------------------------------------
+
+© 2026 Condor2026
+Informes: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Tools: MIT — https://opensource.org/licenses/MIT
