@@ -1,0 +1,485 @@
+# =====================================================================
+# .gitignore — Condor2026 ClearWhiteNet CTI / OSINT / Threat Intelligence Repository
+# =====================================================================
+# Este archivo excluye del control de versiones todo lo que NO debe
+# publicarse: secretos, datos temporales, entornos virtuales, cachés,
+# archivos de sistema operativo y cualquier cosa que pueda comprometer
+# la seguridad del repositorio o de sus usuarios.
+# =====================================================================
+
+
+# ---------------------------------------------------------------------
+# 🔐 SECRETOS Y CREDENCIALES (CRÍTICO — NUNCA SUBIR)
+# ---------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.env
+secrets/
+secret/
+credentials/
+credenciales/
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*.token
+tokens/
+api_keys/
+apikeys/
+config.local.*
+config.secret.*
+*password*
+*passwd*
+*secret*
+*credential*
+*apikey*
+*api_key*
+*token*
+
+
+# ---------------------------------------------------------------------
+# 🐍 PYTHON
+# ---------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+virtualenv/
+pip-wheel-metadata/
+
+# Testing
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.ruff_cache/
+
+
+# ---------------------------------------------------------------------
+# 🟢 NODE.JS / JAVASCRIPT / TYPESCRIPT
+# ---------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependencias
+.pnp
+.pnp.js
+.yarn/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Build
+dist/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+.parcel-cache/
+.turbo/
+
+# TypeScript
+*.tsbuildinfo
+
+
+# ---------------------------------------------------------------------
+# 🐹 GO
+# ---------------------------------------------------------------------
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+vendor/
+
+
+# ---------------------------------------------------------------------
+# 🦀 RUST
+# ---------------------------------------------------------------------
+target/
+Cargo.lock
+**/*.rs.bk
+
+
+# ---------------------------------------------------------------------
+# ☕ JAVA
+# ---------------------------------------------------------------------
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+
+# ---------------------------------------------------------------------
+# 💻 SISTEMAS OPERATIVOS
+# ---------------------------------------------------------------------
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# ---------------------------------------------------------------------
+# 💾 EDITORES E IDEs
+# ---------------------------------------------------------------------
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# JetBrains (IntelliJ, PyCharm, GoLand, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Nano
+*.save
+
+# Kate
+*.kate-swp
+
+
+# ---------------------------------------------------------------------
+# 📊 DATOS Y ANÁLISIS (excluir según política)
+# ---------------------------------------------------------------------
+# ⚠️ NOTA: Los IOCs públicos SÍ se publican. Los datos crudos NO.
+# Ajusta según tu política.
+
+# Datos crudos de scraping (no publicar)
+data/raw/
+data/tmp/
+data/temp/
+scraping/
+scraped/
+*.raw
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+
+# Logs
+*.log
+logs/
+log/
+*.log.*
+
+# Backups
+*.bak
+*.backup
+*.old
+*.orig
+*~
+*.save
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+*.pid
+*.seed
+*.pid.lock
+
+
+# ---------------------------------------------------------------------
+# 📦 COMPRIMIDOS Y BINARIOS GRANDES
+# ---------------------------------------------------------------------
+# ⚠️ Tu repos.zip SÍ debe subirse. Estos son otros comprimidos.
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.xz
+*.lz
+*.lzma
+*.zst
+
+# Binarios grandes (usar Git LFS si es necesario)
+*.iso
+*.dmg
+*.vhd
+*.vmdk
+*.ova
+*.qcow2
+
+
+# ---------------------------------------------------------------------
+# 🧪 ENTORNOS DE TESTING / LAB
+# ---------------------------------------------------------------------
+lab/
+labs/
+sandbox/
+test_data/
+testdata/
+samples/
+malware_samples/
+pcap/
+pcaps/
+*.pcap
+*.pcapng
+*.cap
+*.evtx
+*.dmp
+*.mem
+*.vmem
+
+
+# ---------------------------------------------------------------------
+# 📝 DOCUMENTOS TEMPORALES
+# ---------------------------------------------------------------------
+# Documentos ofimáticos temporales
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.tmp.docx
+*.tmp.xlsx
+
+# PDFs temporales (los informes finales SÍ se suben)
+*.tmp.pdf
+
+
+# ---------------------------------------------------------------------
+# 🌐 WEB / NETLIFY / VERCEL
+# ---------------------------------------------------------------------
+.netlify/
+.vercel/
+.now/
+.firebase/
+.svelte-kit/
+.astro/
+
+
+# ---------------------------------------------------------------------
+# 🔧 HERRAMIENTAS DE CI/CD
+# ---------------------------------------------------------------------
+# Gitea / GitHub Actions locales
+.actrc
+.act/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Ansible
+*.retry
+
+
+# ---------------------------------------------------------------------
+# 📱 MÓVIL / APP
+# ---------------------------------------------------------------------
+*.apk
+*.aab
+*.ipa
+*.app
+*.mobileprovision
+*.keystore
+*.jks
+
+
+# ---------------------------------------------------------------------
+# 🧠 IA / ML (modelos y cachés)
+# ---------------------------------------------------------------------
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.model
+*.weights
+.keras/
+transformers_cache/
+huggingface/
+.cache/huggingface/
+
+
+# ---------------------------------------------------------------------
+# 🎯 EXCEPCIONES (SÍ SE PUBLICAN)
+# ---------------------------------------------------------------------
+# Licencia y documentación legal
+!LICENSE
+!LICENSE.*
+!DISCLAIMER.md
+!SECURITY.md
+!CONTRIBUTING.md
+!CHANGELOG.md
+!README.md
+!CODE_OF_CONDUCT.md
+
+# Ejemplos de configuración (sin secretos)
+!*.example
+!*.sample
+!*.template
+!.env.example
+
+# IOCs públicos (sí se publican)
+!iocs/
+!iocs/**
+!*.ioc
+!*.iocs
+!iocs.csv
+!iocs.json
+!iocs.txt
+
+# Informes públicos
+!informes/
+!informes/**
+!reports/
+!reports/**
+!*.report.md
+!*.informe.md
+
+# Tools públicas
+!tools/
+!tools/**
+
+# El ZIP principal del repo
+!repos.zip
+
+
+# ---------------------------------------------------------------------
+# 📌 NOTAS FINALES
+# ---------------------------------------------------------------------
+# Este .gitignore está diseñado para:
+#   1. Proteger secretos y credenciales (CRÍTICO)
+#   2. Evitar subir datos crudos o sensibles
+#   3. Mantener el repo limpio y profesional
+#   4. Prevenir reportes por contenido inapropiado
+#
+# Si necesitas subir algo que está siendo ignorado, usa:
+#   git add -f <archivo>
+#
+# Para verificar qué se está ignorando:
+#   git status --ignored
+#
+# © 2026 Condor2026 ClearWhiteNet — CC BY 4.0 / MIT
+# =====================================================================
