@@ -74,7 +74,7 @@ Se espera de todos los contribuyentes:
 
 ## Contacto
 
-- **Autor:** Condor2026
+- **Autor:** Condor2026 ClearWhiteNet
 - **Vía:** issues del repositorio
 
 ---
