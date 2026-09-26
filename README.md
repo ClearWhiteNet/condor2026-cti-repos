@@ -1,5 +1,7 @@
 # 🛡️ Condor2026 - WhiteNet — CTI / OSINT / Threat Intelligence Repository
 
+![White_Net](CTI_ECO_SISTEM_KILLNET.png) 
+
 <div align="center">
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
