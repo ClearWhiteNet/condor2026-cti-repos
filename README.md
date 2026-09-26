@@ -1,4 +1,4 @@
-# 🛡️ Condor2026 — CTI / OSINT / Threat Intelligence Repository
+# 🛡️ Condor2026 - WhiteNet — CTI / OSINT / Threat Intelligence Repository
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 ![Language](https://img.shields.io/badge/language-ES%20%7C%20EN-lightgrey)
 ![Focus](https://img.shields.io/badge/focus-Blue%20Team%20%2F%20CTI-critical)
 
-**Análisis narrativo de amenazas · Inteligencia de fuentes abiertas · Herramientas defensivas**
+**Análisis narrativo de amenazas · Inteligencia de fuentes abiertas · Herramientas defensivas y de OSINT PASIVO**
 
 [Descripción](#-descripción) · [Contenido](#-contenido-del-repositorio) · [Uso](#-cómo-usar-este-repositorio) · [Licencia](#-licencia) · [Disclaimer](#-disclaimer)
 
@@ -38,7 +38,7 @@ Este repositorio contiene **37 proyectos** empaquetados en `repos.zip`.
 Cada proyecto mantiene su propia estructura, licencia y documentación interna.
 
 ### 🧠 Informes CTI / OSINT
-Análisis narrativo profundo de grupos APT, hacktivistas, ransomware,
+Análisis narrativo profundo de grupos APT, hacktivistas, r4nsomware,
 supply chain, sector salud, energía, cibercrimen financiero y
 actores nation-state. Incluye IOCs, TTPs, contexto geopolítico y
 evaluación de riesgo.
@@ -157,7 +157,7 @@ Ver [`CHANGELOG.md`](CHANGELOG.md) para el historial completo.
 
 ## 👤 Autor
 
-**Condor2026**
+**Condor2026 - ClearWhiteNet**
 Analista CTI / OSINT independiente
 Enfoque: cibercrimen, hacktivismo, APTs, defensa Blue Team
 
